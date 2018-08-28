@@ -1,0 +1,30 @@
+﻿// 28.08.2018
+#name "R6 FARM by Aloshka (WildTactic)"
+GETSCREEN
+IF_PICTURE_IN (156,201, 244,226, "tab.bmp", -1, 78)
+   LCLICK(599,169)
+   WAITMS(100)
+END_IF
+ 
+IF_PICTURE_IN (882,941, 1167,980, "REP.bmp", -1, 78)
+   LCLICK($_return1, $_return2)
+   WAITMS(100)
+END_IF
+
+IF_PICTURE_IN (170,579, 344,615, "restoran.bmp", -1, 78)
+   LCLICK($_return1, $_return2)
+   WAITMS(100)
+END_IF
+
+IF_PICTURE_IN (179,391, 267,466, "Operate.bmp", -1, 78)
+   LCLICK($_return1, $_return2)
+   WAITMS(100)
+END_IF
+
+IF_PICTURE_IN (386,429, 469,455, "yeap.bmp", -1, 78)
+   LCLICK(410,356)
+   WAITMS(100)
+END_IF
+
+WAITMS(300)
+
